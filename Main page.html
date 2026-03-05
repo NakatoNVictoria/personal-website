@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand logo-text" href="#home">
+                <span class="text-primary-custom">V</span>ictoria
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="container-fluid min-vh-100 d-flex align-items-center bg-light">
+        <div class="container py-5 text-center">
+            <p class="text-uppercase tracking-widest text-secondary mb-2 fw-semibold">Welcome to my Portfolio</p>
+            <h1 class="fw-bold text-primary-custom mb-4">
+                Hi, I'm <span class="text-dark-grey">Victoria</span><br> 
+                an Aspiring Web Developer.
+            </h1>
+            <div class="col-md-8 mx-auto">
+                <p class="fs-4 text-muted mb-5 leading-relaxed">I believe that great design is the bridge between a complex problem and a user-friendly solution.</p>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                <a href="#projects" class="btn btn-primary-custom btn-lg px-5 py-3 rounded-pill shadow">View My Work</a>
+                <a href="#contact" class="btn btn-outline-dark btn-lg px-5 py-3 rounded-pill">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-white">
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                    <img src="Assets/Bio pic.jpg" class="img-fluid custom-bio-img" alt="Victoria">
+                </div>
+                <div class="col-lg-7 px-lg-5">
+                    <h2 class="display-4 fw-bold mb-3 text-dark">About <span class="text-primary-custom">Me</span></h2>
+                    <p class="lead text-muted mb-4">I am an aspiring Web Developer currently studying at Uganda Martyrs University. I am passionate about creating clean, functional, and user-friendly websites.</p>
+                    <h4 class="mb-3">Technical & Soft Skills</h4>
+        
+                    <div class="d-flex flex-wrap gap-2">
+                      <span class="badge rounded-pill bg-custom">HTML5</span>
+                      <span class="badge rounded-pill bg-custom">CSS3</span>
+                      <span class="badge rounded-pill bg-custom">JavaScript</span>
+                      <span class="badge rounded-pill bg-custom">Bootstrap 5</span>
+                      <span class="badge rounded-pill bg-custom">Responsive Design</span>
+                      <span class="badge rounded-pill bg-custom-outline">Problem Solving</span>
+                      <span class="badge rounded-pill bg-custom-outline">Team Collaboration</span>
+                      <span class="badge rounded-pill bg-custom-outline">Time Management</span>
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </section>
+            
+
+    <section id="projects" class="py-5 bg-light">
+        <div class="container my-5">
+            <h2 class="display-4 fw-bold text-center mb-5 text-dark-grey">My <span class="text-primary-custom">Projects</span></h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="Assets/The Daily Grind.avif" class="card-img-top" alt="Cafe project">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="card-title fw-bold">The Daily Grind</h5>
+                            <p class="card-text text-muted flex-grow-1">A landing page for a local cafe.</p>
+                            <a href="cafe.html" class="btn btn-primary-custom mt-3">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="Assets/Focusflow App.avif" class="card-img-top" alt="Blog project">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="card-title fw-bold">FocusFlow Blog</h5>
+                            <p class="card-text text-muted flex-grow-1">A tech blog about productivity and deep work.</p>
+                            <a href="blog.html" class="btn btn-primary-custom mt-3">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="Assets/Wanderlust journal.avif" class="card-img-top" alt="Travel project">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="card-title fw-bold">Wanderlust Journal</h5>
+                            <p class="card-text text-muted flex-grow-1">A page talking a little bit about this project.</p>
+                            <a href="Project vx.html" class="btn btn-primary-custom mt-3">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5 bg-white">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center mb-5">
+            <h2 class="display-4 fw-bold">Get In <span class="text-primary-custom">Touch</span></h2>
+            <p class="text-muted">Have a question or want to work together? Drop me a message below!</p>
+          </div>
+        </div>
+    
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <form class="p-4 p-md-5 border rounded-4 shadow-sm bg-light">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="userName" class="form-label fw-bold">Full Name</label>
+                  <input type="text" class="form-control form-control-lg custom-input" id="userName" placeholder="Nakato Najjemba Victoria" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="userEmail" class="form-label fw-bold">Email Address</label>
+                  <input type="email" class="form-control form-control-lg custom-input" id="userEmail" placeholder="nakato.najjemba@stud.umu.ac.ug" required>
+                </div>
+                <div class="col-12">
+                  <label for="userMessage" class="form-label fw-bold">Your Message</label>
+                  <textarea class="form-control custom-input" id="userMessage" rows="5" placeholder="Hello Victoria, I would like to discuss a project..." required></textarea>
+                </div>
+                <div class="col-12 text-center mt-4">
+                  <button type="submit" class="btn btn-primary-custom btn-lg px-5 py-3 rounded-pill shadow-sm">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-4 bg-dark text-white border-top border-secondary">
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <p class="mb-0">&copy; 2026 <span class="text-primary-custom fw-bold">Victoria</span>. All Rights Reserved.</p>
+          </div>
+    
+          <div class="col-md-6 text-center text-md-end">
+            <a href="https://github.com/NakatoNVictoria" class="social-icon me-3" title="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/victoria-cetra-aa1439367/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BMzVr6m3jQW%2BKloUlFmd%2FUQ%3D%3D" class="social-icon" title="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+    
+        </div>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+    
