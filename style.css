@@ -1,10 +1,8 @@
-/* Safety net for responsiveness */
 html, body {
     max-width: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden;
 }
 
-/* Adjusting section padding for mobile so they aren't too long */
 @media (max-width: 576px) {
     section {
         padding-top: 60px;
@@ -12,7 +10,7 @@ html, body {
     }
     
     .display-4 {
-        font-size: 2.2rem; /* Shorter headings for small screens */
+        font-size: 2.2rem; 
     }
 }
 :root {
@@ -53,18 +51,18 @@ html, body {
 .navbar-brand {
     color: #fff;
 }
-/* Customizing the Hero Heading Size */
+
 #home h1 {
-    font-size: 2.8rem; /* Smaller, more professional size */
+    font-size: 2.8rem;
     font-weight: 700;
     line-height: 1.2;
-    letter-spacing: -1px; /* Modern, tight spacing */
+    letter-spacing: -1px;
     margin-top: 0;
 }
 .text-dark-grey {
     color: #212529;
 }
-/* Ensure it stays readable but small on mobile phones */
+
 @media (max-width: 768px) {
     #home h1 {
         font-size: 2rem; 
@@ -73,12 +71,12 @@ html, body {
 .text-primary-custom {
     color: #6366f1; 
 }
-/* The "White Paper" Look */
+
 .custom-bio-img {
     border: none;
-    border-radius: 2px; /* Just a tiny hint of a corner */
-    box-shadow: none;   /* No heavy shadow */
-    max-width: 85%;     /* Slightly smaller for a premium feel */
+    border-radius: 2px;
+    box-shadow: none; 
+    max-width: 85%;
 }
 
 .btn-primary-custom {
@@ -186,4 +184,5 @@ h2.display-4 {
 footer p {
     font-size: 0.9rem;
     letter-spacing: 0.5px;
+
 }
